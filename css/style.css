@@ -1,0 +1,236 @@
+
+/* body */
+#body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #e1e9f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#secondbody {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:  #fd8c69;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#thirdbody {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #d9aac7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#fourthbody {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:  #4ca9df;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+/* containers */
+#firstcontainer {
+    background-color: white;
+    width: 300px;
+    border-radius: 8px;
+}
+
+#secondcontainer {
+    background-color: #a82654;
+    width: 300px;
+    border-radius: 8px;
+}
+
+#thirdcontainer {
+    background-color: #450a3b;
+    width: 300px;
+    border-radius: 8px;
+}
+
+#fourthcontainer {
+    background-color: #292e91;
+    width: 300px;
+    border-radius: 8px;
+}
+
+
+/* textviews */
+#textview {
+    width: 285px;
+    height: 50px;
+    margin-top: 5px;
+    background-color: white;
+    padding: 5px ;
+    border-color: transparent;
+    font-size: 25px;
+    color: black;
+}
+
+#secondtextview {
+    width: 285px;
+    height: 50px;
+    margin-top: 5px;
+    background-color: #a82654 ;
+    padding: 5px ;
+    border-color: transparent;
+    font-size: 25px;
+    color: white;
+}
+
+#thirdtextview {
+    width: 285px;
+    height: 50px;
+    margin-top: 5px;
+    background-color: #450a3b ;
+    padding: 5px ;
+    border-color: transparent;
+    font-size: 25px;
+    color: white;
+}
+
+#fourthtextview {
+    width: 285px;
+    height: 50px;
+    margin-top: 5px;
+    background-color: #292e91;
+    padding: 5px ;
+    border-color: transparent;
+    font-size: 25px;
+    color: white;
+}
+
+
+/* fonts */
+
+h4 {
+    font-size: 25px;
+    color:#1e3044;
+    padding-top: 30px;
+}
+
+
+/* number buttons */ 
+#button {
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+    border: transparent;
+    background-color: white;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 2px 4px whitesmoke;
+}
+
+#button:hover {
+    background-color: grey;
+    color: white;
+}
+
+#opbutton {
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+    border: transparent;
+    color: gold;
+    background-color: white;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 5px 6px whitesmoke;
+}
+
+#opbutton:hover {
+    background-color: grey;
+    color: white;
+}
+
+
+/* button options */
+.btn {
+    margin-top: -700px;
+    float: left;
+    padding: 5px;
+}
+
+.bt1 {
+    height: 40px;
+    width: 40px;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: transparent;
+    background-color: white;
+}
+
+.bt1:hover{
+    height: 50px;
+    width: 50px;
+}
+
+.bt2 {
+    height: 40px;
+    width: 40px;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: transparent;
+    background-color: #a82654;
+} 
+
+.bt2:hover{
+    height: 50px;
+    width: 50px;
+}
+
+.bt3 {
+    height: 40px;
+    width: 40px;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: transparent;
+    background-color: #450a3b;
+}
+
+.bt3:hover{
+    height: 50px;
+    width: 50px;
+}
+
+.bt4 {
+    height: 40px;
+    width: 40px;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: transparent;
+    background-color: #292e91;
+}
+
+.bt4:hover{
+    height: 50px;
+    width: 50px;
+}
+
+
+
